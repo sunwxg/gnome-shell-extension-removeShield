@@ -1,0 +1,19 @@
+{
+  "description": "Remove shield when unlock screen",
+  "name": "Remove Shield",
+  "original-authors": [
+    "sun.wxg@gmail.com"
+  ],
+  "shell-version": [
+    "3.20",
+    "3.22",
+    "3.24",
+    "3.26",
+    "3.28",
+    "3.30",
+    "3.32",
+    "3.34"
+  ],
+  "url": "https://github.com/sunwxg/gnome-shell-extension-removeShield",
+  "uuid": "removeShield@sun.wxg@gmail.com"
+}

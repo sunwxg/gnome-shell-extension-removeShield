@@ -1,0 +1,11 @@
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema id="org.gnome.shell.extensions.removeShield" path="/org/gnome/shell/extensions/removeShield/">
+    <key name="switch" type="b">
+      <default>true</default>
+      <summary>Key to switch removeShield</summary>
+      <description>
+      </description>
+    </key>
+  </schema>
+</schemalist>
+
