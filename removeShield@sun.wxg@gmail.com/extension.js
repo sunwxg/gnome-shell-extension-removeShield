@@ -1,24 +1,14 @@
 // -*- mode: js2; indent-tabs-mode: nil; js2-basic-offset: 4 -*-
 
-const Gio = imports.gi.Gio;
-const Clutter = imports.gi.Clutter;
-const GLib = imports.gi.GLib;
-const St = imports.gi.St;
-const Mainloop = imports.mainloop;
-const Gdk = imports.gi.Gdk;
-
 const Gettext = imports.gettext.domain('gnome-shell-extensions');
 const _ = Gettext.gettext;
 
 const Main = imports.ui.main;
-const MessageTray = imports.ui.messageTray;
-const Tweener = imports.ui.tweener;
+const ScreenShield = imports.ui.screenShield;
 
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 const Convenience = Me.imports.convenience;
-
-const ScreenShield = imports.ui.screenShield;
 
 const SCHEMA_NAME = 'org.gnome.shell.extensions.removeShield';
 
